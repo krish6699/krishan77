@@ -1,0 +1,47 @@
+
+img{
+    width: 495px;
+}
+.three{
+    height: 50vh;
+}
+.two{
+    height: 50vh;
+}
+.one{
+    height: 50vh;
+}
+.four{
+    height: 50vh;
+}
+img{
+    display: inline;
+}
+.five{
+    height: 50vh;
+}
+.six{
+    height: 50vh;
+}
+img{
+    height: 50vh;
+    
+}
+ul,li,h1{
+    display: inline;
+}
+ 
+.header{
+    margin-left: 70%;
+}
+
+.gallnav {
+    text-align: center;
+    align-items: center;
+    height: 130px;
+    position: relative;
+    font-size: 19px;
+    background-color: rgb(96, 95, 95);
+    
+}
+

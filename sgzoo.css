@@ -1,0 +1,59 @@
+h3{
+    color: black;
+}
+h1{
+    font-weight: bold;
+
+}
+
+nav.navbar{
+    margin-left: 92%;
+    font-size: 30px;
+}
+
+ul,li,h1{
+
+    display: inline;
+}
+button{
+    font-size: 20px;
+    background-color: rgb(26, 188, 26);
+    color: azure;
+    border-radius: 20px;
+    margin: 20%;
+    
+}
+
+p{
+    font-weight: bold;
+}
+
+.header{
+    margin-left: 70%;
+}
+
+p {
+    line-height: 20px;
+ }
+ .mainnav {
+    text-align: center;
+    align-items: center;
+    height: 130px;
+    position: relative;
+    font-size: 19px;
+    background-color: rgb(108, 102, 102);
+    
+}
+
+.nav {
+    text-align: center;
+    align-items: center;
+    height: 130px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+   
+}
+nav{
+    background-color: grey;
+}

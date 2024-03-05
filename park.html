@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurong Bird Park</title>
+    <link rel="stylesheet" href="parkBird.css">
+</head>
+<body background="b66.jpg">
+         <nav class="mainpnav">
+        <center>
+        <h1>𓆙Singapore Wildlife Foundation </h1>
+        </center>
+       
+            <div class="header">
+                <ul>
+                    <li><a href="./index.html">Home|</a></li>
+                    <li><a href="./zoo.html">Singapore Zoo|</a></li>
+                    <li><a href="./park.html">Jurong Bird Park</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    <hr>
+    <center>
+    <a href="./index.html" class="logo"><img id="park"  src="bird.png" alt="Your Zoo Logo"></a>
+    
+    <h1 class="one"> Jurong Bird Park</h1>
+    
+    </center>
+    <nav class="navbar">
+        <a href="./gallpark.html">📷</a>
+        <a href="https://youtu.be/h-Z9wg1RmSo?feature=shared">🎥</a>
+    </nav>
+    <hr>
+    <hr>
+
+    <p>
+        For those who enjoy birds, Singapore's Jurong Bird Park is a haven nestled among the verdant hills of Jurong Hill. It covers more than 20 hectares and is home to more than 5,000 birds of 400 species. Wandering through exquisitely built aviaries, visitors may get up close and personal with colourful parrots, magnificent raptors, and exotic hornbills. The park provides an immersive experience that emphasises the beauty and significance of bird life for people of all ages, all while upholding its dedication to conservation and education.
+    </p>
+
+    <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/h-Z9wg1RmSo?si=r2uVKpsd5HGEfcWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </center>
+
+    <center>
+        <a href="./parklearn.html">
+        <button> learn more </button>
+        </a>
+
+    </center> 
+
+    <script>
+        document.getElementById("park").addEventListener("mouseover", changeimage);
+        document.getElementById("park").addEventListener("mouseleave", changeimage2);
+    
+        function changeimage()  {
+    
+            var image = document.getElementById("park").src = "parkimg.png";
+        }
+    
+        
+        function changeimage2()  {
+    
+            var image = document.getElementById("park").src = "bird.png";
+    }
+    
+    
+    </script>
+
+    
+</body>
+</html>
